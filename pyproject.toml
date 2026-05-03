@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "A reusable toolkit for analyzing US CPI data from FRED."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "duckdb>=1.5.2",
+    "fredapi>=0.5.2",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.2",
+    "python-dotenv>=1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]

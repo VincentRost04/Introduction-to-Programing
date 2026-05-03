@@ -12,11 +12,21 @@ __pycache__/
 venv/
 env/
 
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
 # --- Quarto ---
 /.quarto/
 /_freeze/
 notebooks/*_files/
 notebooks/*_cache/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # --- OS ---
 .DS_Store

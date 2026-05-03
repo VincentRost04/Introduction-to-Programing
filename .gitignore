@@ -12,6 +12,14 @@ __pycache__/
 venv/
 env/
 
+# --- Quarto ---
+/.quarto/
+/_freeze/
+notebooks/*_files/
+notebooks/*_cache/
+
 # --- OS ---
 .DS_Store
 Thumbs.db
+
+**/*.quarto_ipynb

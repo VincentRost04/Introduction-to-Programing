@@ -36,4 +36,7 @@ notebooks/*_cache/
 .DS_Store
 Thumbs.db
 
+# --- Note ---
+# data/fred.db is intentionally committed per the project assignment
+# (normally a generated database would be gitignored).
 **/*.quarto_ipynb

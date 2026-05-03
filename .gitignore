@@ -12,6 +12,26 @@ __pycache__/
 venv/
 env/
 
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Quarto ---
+/.quarto/
+/_freeze/
+notebooks/*_files/
+notebooks/*_cache/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+# --- uv ---
+# uv.lock is intentionally committed for reproducibility.
+
+
 # --- OS ---
 .DS_Store
 Thumbs.db
@@ -19,3 +39,4 @@ Thumbs.db
 # --- Note ---
 # data/fred.db is intentionally committed per the project assignment
 # (normally a generated database would be gitignored).
+**/*.quarto_ipynb

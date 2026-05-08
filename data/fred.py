@@ -1,12 +1,12 @@
 """
-build_fred.py — ETL script: Retrieves FRED CPI time series and builds a DuckDB database.
+fred.py — ETL script: Retrieves FRED CPI time series and builds a DuckDB database.
 
 Run this script ONCE to create `data/fred.db`. The database is committed to the
 repository, so subsequent runs are only needed if you want to refresh the data.
 
 Usage
 -----
-    uv run python data/build_fred.py
+    uv run python data/fred.py
 
 Requires a FRED_API_KEY in your `.env` file. Request one at:
     https://fred.stlouisfed.org/docs/api/api_key.html

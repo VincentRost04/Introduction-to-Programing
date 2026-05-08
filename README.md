@@ -49,7 +49,7 @@ cp .env.example .env
 The generated `data/fred.db` is committed, so you can skip this step. To
 rebuild it from scratch:
 ```bash
-uv run python data/build_fred.py
+uv run python data/fred.py
 ```
 
 ---
@@ -66,7 +66,7 @@ inflation_toolkit/
 ├── _quarto.yml            # Quarto project config
 │
 └── data/
-    ├── build_fred.py      # one-time ETL: FRED API → DuckDB
+    ├── fred.py            # one-time ETL: FRED API → DuckDB
     ├── er_diagram.md      # Mermaid ER diagram + notes
     ├── er_diagram.png     # rendered ER diagram (PNG)
     └── fred.db            # generated DuckDB database (committed)
